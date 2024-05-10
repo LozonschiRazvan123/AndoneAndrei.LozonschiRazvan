@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sortarea Numelelor</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Sortarea numelelor</h1>
+        <div class="input-group mb-3 mt-3">
+            <input type="text" id="nameInput" class="form-control" placeholder="Introduceti un nume">
+            <div class="input-group-append">
+                <button id="addNameButton" class="btn btn-primary" type="button">Adauga nume</button>
+            </div>
+        </div>
+        <ul id="sortedNames" class="list-group"></ul>
+        <div class="d-flex justify-content-center">
+            <button id="downloadButton" class="btn btn-success mt-3 mr-2">Descarca lista sortata</button>
+            <button id="clearButton" class="btn btn-danger mt-3">Sterge toate elementele</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
