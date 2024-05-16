@@ -7,5 +7,5 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 
 const PORT = process.env.PORT || 5500;
 app.listen(PORT, () => {
-  console.log(`Serverul rulează pe portul ${PORT}`);
+  console.log(`Serverul ruleaza pe portul ${PORT}`);
 });

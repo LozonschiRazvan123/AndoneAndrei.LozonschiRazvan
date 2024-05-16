@@ -2,6 +2,24 @@
   "dependencies": {
     "connect": "^3.7.0",
     "express": "^4.19.2",
+    "jsdom-global": "^3.0.2",
     "serve-static": "^1.15.0"
-  }
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "name": "andoneandrei.lozonschirazvan",
+  "version": "1.0.0",
+  "main": "script.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
