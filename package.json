@@ -11,10 +11,11 @@
   },
   "scripts": {
     "test": "jest"
-  },
+},
   "jest": {
     "testEnvironment": "jsdom"
-  },
+},
+
   "name": "andoneandrei.lozonschirazvan",
   "version": "1.0.0",
   "main": "script.js",

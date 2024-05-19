@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Sortarea Numelelor</title>
+    <title>Sortarea numelor</title>
 </head>
 
 <body>
     <div class="container">
-        <h1 class="text-center mt-5">Sortarea numelelor</h1>
+        <h1 class="text-center mt-5">Sortarea numelor</h1>
         <div class="input-group mb-3 mt-3">
             <input type="text" id="nameInput" class="form-control" placeholder="Introduceti un nume">
             <div class="input-group-append">
@@ -29,7 +29,18 @@
             <button id="clearButton" class="btn btn-danger mt-3">Sterge toate elementele</button>
         </div>
     </div>
+    <div id="toast-container" class="d-flex justify-content-center position-fixed w-100"
+        style="top: 20px; pointer-events: none;"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeDOMElements();
+        });
+    </script>
+
 </body>
 
 </html>

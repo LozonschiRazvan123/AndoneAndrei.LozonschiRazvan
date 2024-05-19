@@ -58,3 +58,12 @@ h1 {
 #downloadButton {
     width: 100%;
 }
+
+.toast-container {
+    pointer-events: none;
+}
+
+.toast {
+    pointer-events: all;
+    min-width: 300px;
+}
